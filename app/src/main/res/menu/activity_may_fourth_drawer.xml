@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_yoda"
+            android:icon="@drawable/yoda_small"
+            android:title="Yoda"/>
+        <item
+            android:id="@+id/nav_squadron"
+            android:icon="@drawable/roguesquadron_small"
+            android:title="Rogue Squadron"/>
+        <item
+            android:id="@+id/nav_r2d2"
+            android:icon="@drawable/r2d2_small"
+            android:title="R2D2"/>
+        <item
+            android:id="@+id/nav_vader"
+            android:icon="@drawable/vader_small"
+            android:title="Darth Vader"/>
+        <item
+            android:id="@+id/nav_c3po"
+            android:icon="@drawable/c3po_small"
+            android:title="C3PO"/>
+        <item
+            android:id="@+id/nav_luke"
+            android:icon="@drawable/luke_small"
+            android:title="Luke"/>
+        <item
+            android:id="@+id/nav_maul"
+            android:icon="@drawable/maul_small"
+            android:title="Darth Maul"/>
+        <item
+            android:id="@+id/nav_stormtrooper"
+            android:icon="@drawable/stormtrooper_small"
+            android:title="Stormtrooper"/>
+    </group>
+
+    <item android:title="About">
+        <menu>
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_menu_send"
+                android:title="About"/>
+        </menu>
+    </item>
+
+</menu>
